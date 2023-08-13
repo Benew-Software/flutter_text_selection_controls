@@ -2,6 +2,12 @@
 
 This package allows you to create custom text selection controls and use them in the SelectableText widget or in the TextForm or TextFormField widgets. You can style the texts and the icons to match the theme of your app.
 
+## NOTE: THIS PACKAGE IS DISCONTINUED! 
+
+With the introduction of the contextMenuBuilder property, you can now create custom context menus without the need for a third-party package. This property allows you to return any widget you want from a function, which means that you have complete control over the content and appearance of the context menu.
+
+As a result of this change, there is no longer any need to use the [text_selection_controls] package. If you need to create a custom context menu for a widget, you can simply use the contextMenuBuilder property
+
 ## Screenshots
 
 <p>
